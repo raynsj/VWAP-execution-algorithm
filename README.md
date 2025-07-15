@@ -1,3 +1,5 @@
+# Using Temporal Linear Network (TLN) for VWAP execution
+
 ## High Level Summary
 
 This report presents a comprehensive implementation and analysis of a Volume Weighted Average Price (VWAP) execution algorithm based on the Temporal Linear Network (TLN) methodology proposed by Remi Genet in their seminal work "Deep Learning for VWAP Execution in Crypto Markets: Beyond the Volume Curve."  Building upon their innovative approach to direct VWAP optimization, I developed an enhanced implementation that incorporates market impact modeling and feature engineering improvements to evaluate real-world trading performance.
