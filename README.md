@@ -16,7 +16,8 @@ This dramatic performance degradation highlights a critical limitation in my ori
 Following the methodology established by the research paper, I implemented a direct optimization approach that bypasses traditional volume curve prediction in favor of end-to-end VWAP minimization. The TLN architecture processes temporal sequences of market data to generate optimal allocation schedules, using a custom loss function that directly minimizes the quadratic difference between model VWAP and benchmark VWAP. This is the core feature of this model.
 
 It lies in the direct optimization paradigm. Rather than following the conventional approach of first predicting volume curves and then deriving execution schedules, the TLN learns to map market conditions directly to optimal trading schedules. This approach theoretically eliminates the compounding errors inherent in two-stage methodologies.
-Technical Architecture
+
+### Technical Architecture
 
 My implementation utilizes an enhanced TLN architecture with the following specifications:
 * Temporal Window: 120-minute lookback period with 12-minute prediction horizon, optimized from the original paper's recommendations
